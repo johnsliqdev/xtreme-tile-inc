@@ -29,10 +29,10 @@
 
   .hero-gradient {
     background: linear-gradient(
-      135deg,
-      rgba(28, 28, 30, 0.85) 0%,
-      rgba(28, 28, 30, 0.6) 50%,
-      rgba(28, 28, 30, 0.75) 100%
+      to bottom,
+      rgba(28, 28, 30, 0.80) 0%,
+      rgba(28, 28, 30, 0.68) 35%,
+      rgba(28, 28, 30, 0.88) 100%
     );
   }
 

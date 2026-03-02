@@ -28,7 +28,7 @@ const PageHero = ({ title, subtitle, image }) => (
   <section className="relative h-[55vh] min-h-[400px] flex items-center justify-center overflow-hidden pt-20">
     <div className="absolute inset-0">
       <img src={image} alt={title} className="w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-primary/80" />
+      <div className="absolute inset-0 bg-primary/88" />
     </div>
     <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
       <div className="inline-flex items-center gap-3 mb-5">
@@ -40,7 +40,7 @@ const PageHero = ({ title, subtitle, image }) => (
         {title}
       </h1>
       {subtitle && (
-        <p className="text-silver text-lg mt-5 max-w-xl mx-auto leading-relaxed">{subtitle}</p>
+        <p className="text-white/85 text-lg mt-5 max-w-xl mx-auto leading-relaxed">{subtitle}</p>
       )}
     </div>
   </section>
@@ -89,7 +89,7 @@ const services = [
       'Healthcare facilities',
       'Shopping centers and malls',
     ],
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=800&q=80',
     highlight: 'ADA compliant installations',
   },
   {
@@ -265,7 +265,7 @@ export default function Services() {
                         <polyline points="20 6 9 17 4 12" strokeLinecap="round" strokeLinejoin="round" />
                       </svg>
                     </div>
-                    <span className="text-white/80 text-sm">{f}</span>
+                    <span className="text-white text-sm">{f}</span>
                   </div>
                 ))}
               </div>
@@ -375,7 +375,7 @@ export default function Services() {
             <h2 className="text-4xl sm:text-5xl font-black text-white tracking-tight">
               Ready to Get Started?
             </h2>
-            <p className="text-white/80 text-lg mt-4 max-w-xl mx-auto">
+            <p className="text-white/90 text-lg mt-4 max-w-xl mx-auto">
               Contact us today for your free consultation and estimate.
             </p>
             <Link

@@ -166,7 +166,7 @@ const projects = [
     category: 'Flooring',
   },
   {
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=800&q=80',
     title: 'Corporate Lobby',
     category: 'Commercial',
   },
@@ -206,8 +206,8 @@ export default function Home() {
         {/* Background image */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1920&q=80"
-            alt="Luxury tiled space"
+            src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1920&q=80"
+            alt="Luxury tiled bathroom"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 hero-gradient" />
@@ -227,7 +227,7 @@ export default function Home() {
             Tile Installation
           </h1>
 
-          <p className="text-silver text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mt-6 mb-10 text-shadow">
+          <p className="text-white/90 text-lg sm:text-xl max-w-2xl mx-auto leading-relaxed mt-6 mb-10 text-shadow">
             Premium craftsmanship for residential and commercial projects.
             Your vision, delivered with precision and passion.
           </p>
@@ -241,7 +241,7 @@ export default function Home() {
             </Link>
             <Link
               to="/portfolio"
-              className="border-2 border-white/40 hover:border-accent text-white hover:text-accent font-black px-10 py-4 text-sm tracking-[0.15em] uppercase transition-all duration-200 backdrop-blur-sm"
+              className="border-2 border-white/70 hover:border-accent text-white hover:text-accent font-black px-10 py-4 text-sm tracking-[0.15em] uppercase transition-all duration-200 backdrop-blur-sm"
             >
               View Our Work
             </Link>
@@ -249,8 +249,8 @@ export default function Home() {
 
           {/* Scroll indicator */}
           <div className="absolute bottom-10 left-1/2 -translate-x-1/2 flex flex-col items-center gap-2 animate-bounce">
-            <span className="text-silver/60 text-xs tracking-widest uppercase">Scroll</span>
-            <div className="w-[1px] h-8 bg-gradient-to-b from-silver/60 to-transparent" />
+            <span className="text-white/70 text-xs tracking-widest uppercase">Scroll</span>
+            <div className="w-[1px] h-8 bg-gradient-to-b from-white/70 to-transparent" />
           </div>
         </div>
 
@@ -309,8 +309,8 @@ export default function Home() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80"
-            alt="Professional tile installation"
+            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80"
+            alt="Premium marble tile floor"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-primary/88" />
@@ -439,7 +439,7 @@ export default function Home() {
             <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-white tracking-tight leading-tight">
               Ready to Transform<br />Your Space?
             </h2>
-            <p className="text-white/80 text-lg mt-5 leading-relaxed max-w-xl mx-auto">
+            <p className="text-white/90 text-lg mt-5 leading-relaxed max-w-xl mx-auto">
               Get your free, no-obligation estimate today. We'll visit your site, discuss your vision, and deliver a detailed quote within 24 hours.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">

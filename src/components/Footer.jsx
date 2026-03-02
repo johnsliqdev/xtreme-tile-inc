@@ -11,7 +11,7 @@ const Logo = () => (
         <span className="text-xl font-black text-white tracking-[0.08em]">XTREME</span>
         <span className="text-xl font-black text-silver tracking-[0.08em] ml-2">TILE</span>
       </div>
-      <span className="text-[0.5rem] text-silver/60 tracking-[0.25em] font-semibold">INC.</span>
+      <span className="text-[0.5rem] text-silver tracking-[0.25em] font-semibold">INC.</span>
     </div>
   </Link>
 )
@@ -160,12 +160,12 @@ export default function Footer() {
       {/* Bottom Bar */}
       <div className="border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-5 flex flex-col sm:flex-row items-center justify-between gap-3">
-          <p className="text-silver/60 text-xs tracking-wide">
+          <p className="text-silver text-xs tracking-wide">
             © {new Date().getFullYear()} Xtreme Tile Inc. All rights reserved.
           </p>
           <div className="flex gap-6">
             {['Privacy Policy', 'Terms of Service', 'Sitemap'].map((item) => (
-              <a key={item} href="#" className="text-silver/60 hover:text-accent text-xs tracking-wide transition-colors duration-200">
+              <a key={item} href="#" className="text-silver hover:text-accent text-xs tracking-wide transition-colors duration-200">
                 {item}
               </a>
             ))}

@@ -128,11 +128,11 @@ export default function About() {
       <section className="relative h-[60vh] min-h-[420px] flex items-center justify-center overflow-hidden pt-20">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1920&q=80"
-            alt="Professional tiler at work"
+            src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1920&q=80"
+            alt="Beautiful mosaic tile wall"
             className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-primary/82" />
+          <div className="absolute inset-0 bg-primary/88" />
         </div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <div className="inline-flex items-center gap-3 mb-5">
@@ -143,7 +143,7 @@ export default function About() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-none text-shadow-lg">
             About Us
           </h1>
-          <p className="text-silver text-lg mt-5 max-w-2xl mx-auto leading-relaxed">
+          <p className="text-white/85 text-lg mt-5 max-w-2xl mx-auto leading-relaxed">
             15 years of precision, passion, and craftsmanship — transforming spaces across Southern California one tile at a time.
           </p>
         </div>
@@ -184,8 +184,8 @@ export default function About() {
             <div className="relative">
               <div className="grid grid-cols-2 gap-3">
                 <img
-                  src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=400&q=80"
-                  alt="Tile installation in progress"
+                  src="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=400&q=80"
+                  alt="Herringbone tile floor installation"
                   className="w-full aspect-[3/4] object-cover"
                 />
                 <div className="flex flex-col gap-3">
@@ -204,7 +204,7 @@ export default function About() {
               {/* Floating badge */}
               <div className="absolute -bottom-5 -left-5 bg-accent p-6 shadow-2xl">
                 <div className="text-4xl font-black text-white">15+</div>
-                <div className="text-white/80 text-sm font-bold tracking-wide">Years of<br />Excellence</div>
+                <div className="text-white text-sm font-bold tracking-wide">Years of<br />Excellence</div>
               </div>
             </div>
           </AnimatedSection>
@@ -366,7 +366,7 @@ export default function About() {
             <h2 className="text-4xl sm:text-5xl font-black text-white">
               Let's Build Something<br />Beautiful Together
             </h2>
-            <p className="text-white/80 text-lg mt-5 max-w-xl mx-auto">
+            <p className="text-white/90 text-lg mt-5 max-w-xl mx-auto">
               Ready to start your tile project? Contact us for a free, no-obligation consultation and estimate.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center mt-10">

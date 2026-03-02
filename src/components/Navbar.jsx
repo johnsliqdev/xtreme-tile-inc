@@ -13,7 +13,7 @@ const Logo = () => (
         <span className="text-[1.6rem] font-black text-white tracking-[0.08em] leading-none">XTREME</span>
         <span className="text-[1.6rem] font-black text-silver tracking-[0.08em] leading-none ml-2">TILE</span>
       </div>
-      <span className="text-[0.55rem] text-silver/70 tracking-[0.25em] font-semibold leading-none mt-0.5">INC.</span>
+      <span className="text-[0.55rem] text-silver tracking-[0.25em] font-semibold leading-none mt-0.5">INC.</span>
     </div>
   </Link>
 )

@@ -165,11 +165,11 @@ export default function Contact() {
       <section className="relative h-[55vh] min-h-[380px] flex items-center justify-center overflow-hidden pt-20">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=1920&q=80"
-            alt="Contact us"
+            src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1920&q=80"
+            alt="Terracotta tile floor"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-primary/82" />
+          <div className="absolute inset-0 bg-primary/88" />
         </div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <div className="inline-flex items-center gap-3 mb-5">
@@ -180,7 +180,7 @@ export default function Contact() {
           <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-none text-shadow-lg">
             Contact Us
           </h1>
-          <p className="text-silver text-lg mt-5 max-w-xl mx-auto leading-relaxed">
+          <p className="text-white/85 text-lg mt-5 max-w-xl mx-auto leading-relaxed">
             Ready to start your project? Get your free, no-obligation estimate. We respond within 24 hours.
           </p>
         </div>
@@ -195,7 +195,7 @@ export default function Contact() {
                 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.45 2 2 0 0 1 3.58 1.27h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L7.91 8.7a16 16 0 0 0 5.85 5.85l.88-.88a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 21.28 16z" />
               </svg>
               <div>
-                <div className="text-white/70 text-[10px] font-bold tracking-widest uppercase">Call Us</div>
+                <div className="text-white/90 text-[10px] font-bold tracking-widest uppercase">Call Us</div>
                 <div className="text-white font-black text-sm">(323) 555-0147</div>
               </div>
             </a>
@@ -205,7 +205,7 @@ export default function Contact() {
                 <polyline points="22,6 12,13 2,6" />
               </svg>
               <div>
-                <div className="text-white/70 text-[10px] font-bold tracking-widest uppercase">Email Us</div>
+                <div className="text-white/90 text-[10px] font-bold tracking-widest uppercase">Email Us</div>
                 <div className="text-white font-black text-sm">info@xtremetileinc.com</div>
               </div>
             </a>
@@ -214,7 +214,7 @@ export default function Contact() {
                 <circle cx="12" cy="12" r="10" /><polyline points="12 6 12 12 16 14" />
               </svg>
               <div>
-                <div className="text-white/70 text-[10px] font-bold tracking-widest uppercase">Hours</div>
+                <div className="text-white/90 text-[10px] font-bold tracking-widest uppercase">Hours</div>
                 <div className="text-white font-black text-sm">Mon–Sat, 7AM–6PM</div>
               </div>
             </div>
@@ -346,7 +346,7 @@ export default function Contact() {
                   </InputField>
 
                   {/* Privacy note */}
-                  <p className="text-silver/50 text-xs leading-relaxed">
+                  <p className="text-silver text-xs leading-relaxed">
                     By submitting this form, you agree to be contacted by Xtreme Tile Inc. regarding your project. We never share your information with third parties.
                   </p>
 

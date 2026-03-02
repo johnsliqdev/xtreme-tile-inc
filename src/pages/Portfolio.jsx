@@ -32,7 +32,7 @@ const PageHero = () => (
         alt="Portfolio"
         className="w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-primary/80" />
+      <div className="absolute inset-0 bg-primary/88" />
     </div>
     <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
       <div className="inline-flex items-center gap-3 mb-5">
@@ -43,7 +43,7 @@ const PageHero = () => (
       <h1 className="text-5xl sm:text-6xl lg:text-7xl font-black text-white tracking-tight leading-none text-shadow-lg">
         Our Portfolio
       </h1>
-      <p className="text-silver text-lg mt-5 max-w-xl mx-auto leading-relaxed">
+      <p className="text-white/85 text-lg mt-5 max-w-xl mx-auto leading-relaxed">
         Browse our completed projects — each one a testament to our craftsmanship, attention to detail, and commitment to excellence.
       </p>
     </div>
@@ -95,7 +95,7 @@ const projects = [
     category: 'Commercial',
     location: 'Downtown LA',
     description: '8,000 sq ft of commercial-grade porcelain flooring installed across two floors with precision leveling and coordinated grout color.',
-    image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
     tags: ['Commercial', 'Large Scale', 'Porcelain'],
   },
   {
@@ -131,20 +131,20 @@ const projects = [
     category: 'Commercial',
     location: 'Silver Lake, CA',
     description: 'Floor-to-ceiling white subway tile with contrasting dark grout, creating a timeless aesthetic for this neighborhood coffee shop.',
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80',
     tags: ['Subway Tile', 'Commercial', 'Café'],
   },
 ]
 
 const beforeAfter = [
   {
-    before: 'https://images.unsplash.com/photo-1543568130-8bc5bfb03f39?auto=format&fit=crop&w=700&q=80',
+    before: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=700&q=80',
     after: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=700&q=80',
     title: 'Master Bathroom Renovation',
     description: 'Complete transformation from dated 1990s pink tile to a modern marble spa sanctuary.',
   },
   {
-    before: 'https://images.unsplash.com/photo-1600121848594-d8644e57abab?auto=format&fit=crop&w=700&q=80',
+    before: 'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=700&q=80',
     after: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=700&q=80',
     title: 'Kitchen Backsplash Upgrade',
     description: 'Replacing plain painted drywall with a stunning custom tile backsplash that redefines the kitchen.',
@@ -376,7 +376,7 @@ export default function Portfolio() {
             <h2 className="text-4xl sm:text-5xl font-black text-white">
               Love What You See?
             </h2>
-            <p className="text-white/80 text-lg mt-4">
+            <p className="text-white/90 text-lg mt-4">
               Let's create something amazing for your space. Get your free quote today.
             </p>
             <Link
