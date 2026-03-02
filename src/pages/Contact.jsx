@@ -165,11 +165,11 @@ export default function Contact() {
       <section className="relative h-[55vh] min-h-[380px] flex items-center justify-center overflow-hidden pt-20">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=1920&q=80"
-            alt="Terracotta tile floor"
+            src="https://images.unsplash.com/photo-1696884396249-522841700c2f?auto=format&fit=crop&w=1920&q=80"
+            alt="Decorative tile wall"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-primary/88" />
+          <div className="absolute inset-0 bg-primary/92" />
         </div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <div className="inline-flex items-center gap-3 mb-5">

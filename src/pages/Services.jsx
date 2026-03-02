@@ -28,7 +28,7 @@ const PageHero = ({ title, subtitle, image }) => (
   <section className="relative h-[55vh] min-h-[400px] flex items-center justify-center overflow-hidden pt-20">
     <div className="absolute inset-0">
       <img src={image} alt={title} className="w-full h-full object-cover" />
-      <div className="absolute inset-0 bg-primary/88" />
+      <div className="absolute inset-0 bg-primary/92" />
     </div>
     <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
       <div className="inline-flex items-center gap-3 mb-5">
@@ -67,7 +67,7 @@ const services = [
       'Patios and outdoor spaces',
       'Laundry rooms and mudrooms',
     ],
-    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1721564130772-c9ee561ab87b?auto=format&fit=crop&w=800&q=80',
     highlight: 'Most popular service',
   },
   {
@@ -89,7 +89,7 @@ const services = [
       'Healthcare facilities',
       'Shopping centers and malls',
     ],
-    image: 'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1656646523907-97b094c7e63a?auto=format&fit=crop&w=800&q=80',
     highlight: 'ADA compliant installations',
   },
   {
@@ -112,7 +112,7 @@ const services = [
       'Herringbone and stacked patterns',
       'Full-height backsplashes to ceiling',
     ],
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1756906838843-c80118e2416e?auto=format&fit=crop&w=800&q=80',
     highlight: 'Free design consultation',
   },
   {
@@ -135,7 +135,7 @@ const services = [
       'Wet room installations',
       'Niche and feature wall design',
     ],
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1690603935238-b60582bcb273?auto=format&fit=crop&w=800&q=80',
     highlight: 'Waterproofing guaranteed',
   },
   {
@@ -158,7 +158,7 @@ const services = [
       'Exterior and outdoor paving',
       'Subfloor preparation and waterproofing',
     ],
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1719321063859-c0da8f605031?auto=format&fit=crop&w=800&q=80',
     highlight: 'Laser-leveled installations',
   },
   {
@@ -180,7 +180,7 @@ const services = [
       'Geometric and 3D tile installations',
       'Outdoor art installations',
     ],
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1692033071169-7e85c8039695?auto=format&fit=crop&w=800&q=80',
     highlight: 'Fully bespoke designs',
   },
 ]
@@ -214,7 +214,7 @@ export default function Services() {
       <PageHero
         title="Our Services"
         subtitle="Comprehensive tile installation solutions for residential and commercial projects of any size."
-        image="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80"
+        image="https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?auto=format&fit=crop&w=1920&q=80"
       />
 
       {/* ── SERVICE DETAIL CARDS ──────────────────────────────────────────── */}
@@ -346,10 +346,10 @@ export default function Services() {
           <AnimatedSection delay={150}>
             <div className="grid grid-cols-2 gap-3">
               {[
-                'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=400&q=80',
-                'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=400&q=80',
-                'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=400&q=80',
-                'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=400&q=80',
+                'https://images.unsplash.com/photo-1547414857-c9f61632b250?auto=format&fit=crop&w=400&q=80',
+                'https://images.unsplash.com/photo-1765556556784-7656ee0a1bd8?auto=format&fit=crop&w=400&q=80',
+                'https://images.unsplash.com/photo-1748816609402-0ba78af1638a?auto=format&fit=crop&w=400&q=80',
+                'https://images.unsplash.com/photo-1758482355865-af58a68e0c68?auto=format&fit=crop&w=400&q=80',
               ].map((img, i) => (
                 <div key={i} className="overflow-hidden aspect-square group">
                   <img

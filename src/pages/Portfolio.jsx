@@ -28,11 +28,11 @@ const PageHero = () => (
   <section className="relative h-[55vh] min-h-[400px] flex items-center justify-center overflow-hidden pt-20">
     <div className="absolute inset-0">
       <img
-        src="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=1920&q=80"
+        src="https://images.unsplash.com/photo-1458682625221-3a45f8a844c7?auto=format&fit=crop&w=1920&q=80"
         alt="Portfolio"
         className="w-full h-full object-cover"
       />
-      <div className="absolute inset-0 bg-primary/88" />
+      <div className="absolute inset-0 bg-primary/92" />
     </div>
     <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
       <div className="inline-flex items-center gap-3 mb-5">
@@ -59,7 +59,7 @@ const projects = [
     category: 'Bathroom',
     location: 'Beverly Hills, CA',
     description: 'Full bathroom renovation featuring floor-to-ceiling Calacatta marble tile, custom niche shelving, and a frameless walk-in shower.',
-    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1721564130772-c9ee561ab87b?auto=format&fit=crop&w=800&q=80',
     tags: ['Marble', 'Shower', 'Full Renovation'],
   },
   {
@@ -68,7 +68,7 @@ const projects = [
     category: 'Kitchen',
     location: 'Bel Air, CA',
     description: 'Handcrafted Zellige tile backsplash in a rich emerald green, installed floor-to-ceiling with custom metallic grout lines.',
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1756906838843-c80118e2416e?auto=format&fit=crop&w=800&q=80',
     tags: ['Zellige', 'Backsplash', 'Custom'],
   },
   {
@@ -77,7 +77,7 @@ const projects = [
     category: 'Residential',
     location: 'Malibu, CA',
     description: 'Grand entry featuring large-format Bianco Carrara marble tiles in a classic offset pattern with brass inlay accents.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1635247049885-0910fd28901b?auto=format&fit=crop&w=800&q=80',
     tags: ['Marble', 'Large Format', 'Entry'],
   },
   {
@@ -86,7 +86,7 @@ const projects = [
     category: 'Bathroom',
     location: 'Santa Monica, CA',
     description: 'Minimalist wet room with 60"x120" porcelain slabs, linear drain, and seamless glass enclosure for a true spa experience.',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1690603935238-b60582bcb273?auto=format&fit=crop&w=800&q=80',
     tags: ['Porcelain Slab', 'Wet Room', 'Modern'],
   },
   {
@@ -95,7 +95,7 @@ const projects = [
     category: 'Commercial',
     location: 'Downtown LA',
     description: '8,000 sq ft of commercial-grade porcelain flooring installed across two floors with precision leveling and coordinated grout color.',
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1656646523907-97b094c7e63a?auto=format&fit=crop&w=800&q=80',
     tags: ['Commercial', 'Large Scale', 'Porcelain'],
   },
   {
@@ -104,7 +104,7 @@ const projects = [
     category: 'Residential',
     location: 'Venice Beach, CA',
     description: 'Hand-cut glass mosaic feature wall serving as the artistic centerpiece of a contemporary loft living room.',
-    image: 'https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1758482355865-af58a68e0c68?auto=format&fit=crop&w=800&q=80',
     tags: ['Mosaic', 'Feature Wall', 'Custom Art'],
   },
   {
@@ -113,7 +113,7 @@ const projects = [
     category: 'Flooring',
     location: 'Pasadena, CA',
     description: 'Porcelain wood-look tile in a classic herringbone pattern spanning the entire ground floor of a craftsman bungalow.',
-    image: 'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1748816609402-0ba78af1638a?auto=format&fit=crop&w=800&q=80',
     tags: ['Herringbone', 'Wood-Look', 'Flooring'],
   },
   {
@@ -122,7 +122,7 @@ const projects = [
     category: 'Residential',
     location: 'Calabasas, CA',
     description: 'Authentic terracotta tile installation covering a 2,200 sq ft outdoor entertaining area including pool coping and fire pit surround.',
-    image: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1547414857-c9f61632b250?auto=format&fit=crop&w=800&q=80',
     tags: ['Terracotta', 'Outdoor', 'Pool Deck'],
   },
   {
@@ -131,21 +131,21 @@ const projects = [
     category: 'Commercial',
     location: 'Silver Lake, CA',
     description: 'Floor-to-ceiling white subway tile with contrasting dark grout, creating a timeless aesthetic for this neighborhood coffee shop.',
-    image: 'https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1719321063859-c0da8f605031?auto=format&fit=crop&w=800&q=80',
     tags: ['Subway Tile', 'Commercial', 'Café'],
   },
 ]
 
 const beforeAfter = [
   {
-    before: 'https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?auto=format&fit=crop&w=700&q=80',
-    after: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=700&q=80',
+    before: 'https://images.unsplash.com/photo-1523413307857-ef24c53571ae?auto=format&fit=crop&w=700&q=80',
+    after: 'https://images.unsplash.com/photo-1721564130772-c9ee561ab87b?auto=format&fit=crop&w=700&q=80',
     title: 'Master Bathroom Renovation',
     description: 'Complete transformation from dated 1990s pink tile to a modern marble spa sanctuary.',
   },
   {
-    before: 'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=700&q=80',
-    after: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=700&q=80',
+    before: 'https://images.unsplash.com/photo-1523413363574-c30aa1c2a516?auto=format&fit=crop&w=700&q=80',
+    after: 'https://images.unsplash.com/photo-1756906838843-c80118e2416e?auto=format&fit=crop&w=700&q=80',
     title: 'Kitchen Backsplash Upgrade',
     description: 'Replacing plain painted drywall with a stunning custom tile backsplash that redefines the kitchen.',
   },

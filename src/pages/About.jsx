@@ -128,11 +128,11 @@ export default function About() {
       <section className="relative h-[60vh] min-h-[420px] flex items-center justify-center overflow-hidden pt-20">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=1920&q=80"
-            alt="Beautiful mosaic tile wall"
+            src="https://images.unsplash.com/photo-1692033071169-7e85c8039695?auto=format&fit=crop&w=1920&q=80"
+            alt="Beautiful ceramic tile pattern"
             className="w-full h-full object-cover object-center"
           />
-          <div className="absolute inset-0 bg-primary/88" />
+          <div className="absolute inset-0 bg-primary/92" />
         </div>
         <div className="relative z-10 text-center max-w-4xl mx-auto px-4">
           <div className="inline-flex items-center gap-3 mb-5">
@@ -184,19 +184,19 @@ export default function About() {
             <div className="relative">
               <div className="grid grid-cols-2 gap-3">
                 <img
-                  src="https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=400&q=80"
-                  alt="Herringbone tile floor installation"
+                  src="https://images.unsplash.com/photo-1523413363574-c30aa1c2a516?auto=format&fit=crop&w=400&q=80"
+                  alt="Tile installation in progress"
                   className="w-full aspect-[3/4] object-cover"
                 />
                 <div className="flex flex-col gap-3">
                   <img
-                    src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=400&q=80"
-                    alt="Beautiful tile work"
+                    src="https://images.unsplash.com/photo-1547414857-c9f61632b250?auto=format&fit=crop&w=400&q=80"
+                    alt="Maroon ceramic tile work"
                     className="w-full aspect-square object-cover"
                   />
                   <img
-                    src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=400&q=80"
-                    alt="Luxury bathroom"
+                    src="https://images.unsplash.com/photo-1690983321651-2510fe685fc6?auto=format&fit=crop&w=400&q=80"
+                    alt="Ceramic tile wall texture"
                     className="w-full aspect-square object-cover"
                   />
                 </div>

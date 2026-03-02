@@ -151,22 +151,22 @@ const services = [
 
 const projects = [
   {
-    image: 'https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1690603935238-b60582bcb273?auto=format&fit=crop&w=800&q=80',
     title: 'Luxury Master Bath',
     category: 'Bathroom',
   },
   {
-    image: 'https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1756906838843-c80118e2416e?auto=format&fit=crop&w=800&q=80',
     title: 'Gourmet Kitchen Backsplash',
     category: 'Kitchen',
   },
   {
-    image: 'https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1635247049885-0910fd28901b?auto=format&fit=crop&w=800&q=80',
     title: 'Marble Entry Floor',
     category: 'Flooring',
   },
   {
-    image: 'https://images.unsplash.com/photo-1615873968403-89e068629265?auto=format&fit=crop&w=800&q=80',
+    image: 'https://images.unsplash.com/photo-1656646523907-97b094c7e63a?auto=format&fit=crop&w=800&q=80',
     title: 'Corporate Lobby',
     category: 'Commercial',
   },
@@ -206,7 +206,7 @@ export default function Home() {
         {/* Background image */}
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1920&q=80"
+            src="https://images.unsplash.com/photo-1721564130772-c9ee561ab87b?auto=format&fit=crop&w=1920&q=80"
             alt="Luxury tiled bathroom"
             className="w-full h-full object-cover"
           />
@@ -309,11 +309,11 @@ export default function Home() {
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0">
           <img
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?auto=format&fit=crop&w=1920&q=80"
-            alt="Premium marble tile floor"
+            src="https://images.unsplash.com/photo-1547414857-c9f61632b250?auto=format&fit=crop&w=1920&q=80"
+            alt="Premium ceramic tile texture"
             className="w-full h-full object-cover"
           />
-          <div className="absolute inset-0 bg-primary/88" />
+          <div className="absolute inset-0 bg-primary/92" />
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -324,7 +324,7 @@ export default function Home() {
                 Precision, Quality &<br />
                 <span className="text-accent">Your Vision</span>
               </h2>
-              <p className="text-silver mt-6 leading-relaxed">
+              <p className="text-white/85 mt-6 leading-relaxed">
                 With over 15 years of hands-on experience, Xtreme Tile Inc. has built a reputation for exceptional craftsmanship and unwavering reliability. Every project is backed by our satisfaction guarantee.
               </p>
               <div className="mt-8 space-y-4">
