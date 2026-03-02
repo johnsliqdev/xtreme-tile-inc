@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-primary text-white font-sans antialiased;
+  }
+
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+@layer utilities {
+  .text-shadow-lg {
+    text-shadow: 0 4px 12px rgba(0, 0, 0, 0.6);
+  }
+
+  .text-shadow {
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.4);
+  }
+
+  .hero-gradient {
+    background: linear-gradient(
+      135deg,
+      rgba(28, 28, 30, 0.85) 0%,
+      rgba(28, 28, 30, 0.6) 50%,
+      rgba(28, 28, 30, 0.75) 100%
+    );
+  }
+
+  .section-overlay {
+    background: rgba(28, 28, 30, 0.6);
+  }
+
+  .clip-diagonal {
+    clip-path: polygon(0 0, 100% 0, 100% 88%, 0 100%);
+  }
+
+  .clip-diagonal-reverse {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 88%);
+  }
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #1C1C1E;
+}
+::-webkit-scrollbar-thumb {
+  background: #D32F2F;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B71C1C;
+}
+
+/* Smooth image loading */
+img {
+  transition: opacity 0.3s ease;
+}
